@@ -8,7 +8,7 @@ describe('test de login', () =>{
     })
 
 
-it.skip('valid user can login', ()=>{
+it('valid user can login', ()=>{
 
     cy.get('#username').type("tomsmith")
     cy.get('#password').type("SuperSecretPassword!")
